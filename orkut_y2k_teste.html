@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>orkut • perfil de teste</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=VT323&display=swap');
+:root{--blue:#5b8fd7;--deep:#24568d;--pink:#ffb8d7;--lime:#d8f18b;--bg:#dce9f8}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 15% 10%,#fff 0 2px,transparent 3px),linear-gradient(135deg,#d7e9ff,#f8dff0 55%,#d8f4df);background-size:36px 36px,cover;color:#24415e;font-family:Nunito,Arial,sans-serif}
+a{color:#356eb4}
+.top{background:linear-gradient(90deg,#3c79bd,#79b1ed);color:white;padding:15px 5%;box-shadow:0 3px 0 #2e639e}
+.brand{font-size:34px;font-weight:900;letter-spacing:-2px}.brand span{color:#ffe9a9}
+.top small{font-family:VT323;font-size:20px}
+.wrap{max-width:1050px;margin:25px auto;padding:0 14px}
+.layout{display:grid;grid-template-columns:250px 1fr;gap:18px}
+.panel{background:#fff;border:2px solid #8bb5e2;border-radius:12px;box-shadow:4px 5px 0 #b3cde8;margin-bottom:15px;overflow:hidden}
+.panel h2,.panel h3{margin:0;background:linear-gradient(90deg,#d6eaff,#f3e4ff);padding:10px 13px;color:#315d91;font-size:16px}
+.pad{padding:13px}
+.avatar{width:100%;height:220px;border-radius:8px;background:linear-gradient(135deg,#b5d7ff,#ffc9e5);display:flex;align-items:center;justify-content:center;font-size:95px;border:2px dashed white}
+.status{background:#f2f9ff;padding:8px;border-radius:7px;margin:10px 0;font-size:13px}
+.profile-name{font-size:25px;font-weight:900;color:#2e68a8}
+.badge{display:inline-block;background:#e5f4b6;border:1px solid #b8d67d;padding:3px 8px;border-radius:20px;font-size:12px;margin:2px}
+.nav a{display:block;padding:7px 10px;text-decoration:none;border-bottom:1px dotted #c7d9ee}.nav a:hover{background:#eaf5ff}
+.hero{background:linear-gradient(120deg,#e9f6ff,#ffe6f4);padding:16px;border-radius:10px;border:1px dashed #92b9df}
+.hero h1{margin:0 0 5px;color:#315f98}
+textarea,input{font:inherit;border:1px solid #9bbce0;border-radius:7px;padding:8px;width:100%;background:#fbfdff}
+button{border:0;border-radius:7px;padding:9px 14px;background:#4d88c9;color:white;font-weight:800;cursor:pointer;box-shadow:0 3px 0 #2e639e}
+button:hover{transform:translateY(-1px);filter:brightness(1.05)}
+.post{padding:12px;border-bottom:1px dashed #c9d9ea}
+.post:last-child{border-bottom:0}
+.post-head{font-weight:900;color:#4d7db2;margin-bottom:5px}
+.meta{font-size:12px;color:#8298ae}
+.reactions{margin-top:9px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.friends{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center}
+.friend{background:#f3f8ff;padding:8px;border-radius:8px;font-size:13px}
+.friend .emoji{font-size:30px;display:block}
+.community{padding:8px;background:#f7f2ff;border-radius:8px;margin-bottom:7px}
+.footer{text-align:center;font-size:12px;padding:15px;color:#6685a5}
+@media(max-width:720px){.layout{grid-template-columns:1fr}.avatar{height:180px}.friends{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header class="top"><div class="brand">orkut<span>♥</span></div><small>conectando pessoas desde… hoje! • versão de teste Y2K</small></header>
+<div class="wrap">
+<div class="layout">
+<aside>
+<div class="panel"><h2>Meu perfil</h2><div class="pad">
+<div class="avatar">🦋</div>
+<div class="profile-name">Luna Pixel</div>
+<div class="meta">online agora • Brasil</div>
+<div class="status">✨ “vivendo no modo nostalgia digital”</div>
+<div><span class="badge">♡ scrapbook</span><span class="badge">★ cool</span><span class="badge">✿ Y2K</span></div>
+<p><b>Quem sou:</b><br>Uma pessoa teste explorando o universo colorido da internet antiga.</p>
+<p><b>Humor:</b> 🌈 nostálgica</p>
+</div></div>
+<div class="panel"><h3>Menu</h3><div class="nav"><a href="#perfil">⌂ Perfil</a><a href="#scraps">✉ Recados</a><a href="#amigos">♡ Amigos</a><a href="#comunidades">✿ Comunidades</a></div></div>
+<div class="panel" id="comunidades"><h3>Comunidades</h3><div class="pad">
+<div class="community">💿 <b>Eu amo anos 2000</b><br><small>2.004 membros</small></div>
+<div class="community">🎧 <b>Playlist de madrugada</b><br><small>8.121 membros</small></div>
+<div class="community">🦋 <b>Layouts glitter</b><br><small>1.309 membros</small></div>
+</div></div>
+</aside>
+<main id="perfil">
+<div class="panel"><div class="pad hero"><h1>Bem-vindo(a) ao meu perfil! ✨</h1><p>Um mini site inspirado na estética Y2K e nas redes sociais dos anos 2000. Use os botões e deixe um recado para testar a interação.</p></div></div>
+<div class="panel"><h2>Sobre mim</h2><div class="pad"><p>📍 <b>Local:</b> Mundo virtual<br>🎵 <b>O que estou ouvindo:</b> pop, dance e músicas nostálgicas<br>💻 <b>Interesses:</b> tecnologia, design, jogos e internet</p></div></div>
+<div class="panel" id="scraps"><h2>Scrapbook / Recados ✉</h2>
+<div class="pad"><form id="scrapForm"><input id="nome" placeholder="Seu apelido" maxlength="24" required><br><br><textarea id="recado" placeholder="Escreva um recadinho..." maxlength="220" rows="3" required></textarea><br><br><button type="submit">Enviar recado ✨</button></form></div>
+<div id="posts"><div class="post"><div class="post-head">💌 Admin</div>Esse é um recado de exemplo! Teste enviar o seu abaixo.<div class="meta">agora mesmo</div></div></div>
+</div>
+<div class="panel" id="amigos"><h2>Amigos (3)</h2><div class="pad friends">
+<div class="friend"><span class="emoji">🐸</span><b>Frog.exe</b><br><small>online</small></div>
+<div class="friend"><span class="emoji">🌸</span><b>PinkStar</b><br><small>offline</small></div>
+<div class="friend"><span class="emoji">🛸</span><b>Cosmic</b><br><small>online</small></div>
+</div></div>
+<div class="panel"><h2>Gostou do perfil?</h2><div class="pad"><button id="like">♡ Curtir perfil</button> <span id="likes">0 curtidas</span></div></div>
+</main>
+</div>
+<div class="footer">orkut • projeto de teste local • feito com HTML, CSS e JavaScript</div>
+</div>
+<script>
+let likes=0;
+document.getElementById('like').addEventListener('click',()=>{likes++;document.getElementById('likes').textContent=likes+(likes===1?' curtida':' curtidas')});
+document.getElementById('scrapForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const name=document.getElementById('nome').value.trim();
+ const message=document.getElementById('recado').value.trim();
+ if(!name||!message)return;
+ const post=document.createElement('div');post.className='post';
+ const head=document.createElement('div');head.className='post-head';head.textContent='💌 '+name;
+ const body=document.createElement('div');body.textContent=message;
+ const meta=document.createElement('div');meta.className='meta';meta.textContent='agora mesmo';
+ post.append(head,body,meta);document.getElementById('posts').prepend(post);
+ e.target.reset();
+});
+</script>
+</body>
+</html>
